@@ -94,7 +94,7 @@ class crmModelInstall
         //populate database
         if ( !$this->createDb() )
         {
-            $this->setError('There was an error creating the required database. Please review your ');
+            $this->setError('There was an error creating the required database. Please review your database settings.');
 
             return false;
         }
